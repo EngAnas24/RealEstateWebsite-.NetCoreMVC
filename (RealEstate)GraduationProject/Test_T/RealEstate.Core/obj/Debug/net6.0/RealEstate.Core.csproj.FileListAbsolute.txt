@@ -1,0 +1,85 @@
+D:\c#\Asp.net_Web\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\Asp.net_Web\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.AssemblyInfoInputs.cache
+D:\c#\Asp.net_Web\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.AssemblyInfo.cs
+D:\c#\Asp.net_Web\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.csproj.CoreCompileInputs.cache
+D:\c#\Asp.net_Web\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.deps.json
+D:\c#\Asp.net_Web\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.dll
+D:\c#\Asp.net_Web\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.pdb
+D:\c#\Asp.net_Web\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.csproj.AssemblyReference.cache
+D:\c#\Asp.net_Web\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.dll
+D:\c#\Asp.net_Web\Test_T\RealEstate.Core\obj\Debug\net6.0\refint\RealEstate.Core.dll
+D:\c#\Asp.net_Web\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.pdb
+D:\c#\Asp.net_Web\Test_T\RealEstate.Core\obj\Debug\net6.0\ref\RealEstate.Core.dll
+C:\Users\anasa\Downloads\New folder (2)\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.deps.json
+C:\Users\anasa\Downloads\New folder (2)\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.dll
+C:\Users\anasa\Downloads\New folder (2)\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.pdb
+C:\Users\anasa\Downloads\New folder (2)\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.csproj.AssemblyReference.cache
+C:\Users\anasa\Downloads\New folder (2)\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anasa\Downloads\New folder (2)\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.AssemblyInfoInputs.cache
+C:\Users\anasa\Downloads\New folder (2)\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.AssemblyInfo.cs
+C:\Users\anasa\Downloads\New folder (2)\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.csproj.CoreCompileInputs.cache
+C:\Users\anasa\Downloads\New folder (2)\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.dll
+C:\Users\anasa\Downloads\New folder (2)\Test_T\RealEstate.Core\obj\Debug\net6.0\refint\RealEstate.Core.dll
+C:\Users\anasa\Downloads\New folder (2)\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.pdb
+C:\Users\anasa\Downloads\New folder (2)\Test_T\RealEstate.Core\obj\Debug\net6.0\ref\RealEstate.Core.dll
+C:\Users\osama\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.deps.json
+C:\Users\osama\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.dll
+C:\Users\osama\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.pdb
+C:\Users\osama\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.csproj.AssemblyReference.cache
+C:\Users\osama\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osama\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.AssemblyInfoInputs.cache
+C:\Users\osama\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.AssemblyInfo.cs
+C:\Users\osama\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.csproj.CoreCompileInputs.cache
+C:\Users\osama\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.dll
+C:\Users\osama\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\Test_T\RealEstate.Core\obj\Debug\net6.0\refint\RealEstate.Core.dll
+C:\Users\osama\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.pdb
+C:\Users\osama\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\Test_T\RealEstate.Core\obj\Debug\net6.0\ref\RealEstate.Core.dll
+E:\Bilgisayar Müh\Projects\Bitirme Projesi\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.deps.json
+E:\Bilgisayar Müh\Projects\Bitirme Projesi\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.dll
+E:\Bilgisayar Müh\Projects\Bitirme Projesi\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.pdb
+E:\Bilgisayar Müh\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.csproj.AssemblyReference.cache
+E:\Bilgisayar Müh\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bilgisayar Müh\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.AssemblyInfoInputs.cache
+E:\Bilgisayar Müh\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.AssemblyInfo.cs
+E:\Bilgisayar Müh\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.csproj.CoreCompileInputs.cache
+E:\Bilgisayar Müh\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.dll
+E:\Bilgisayar Müh\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\refint\RealEstate.Core.dll
+E:\Bilgisayar Müh\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.pdb
+E:\Bilgisayar Müh\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\ref\RealEstate.Core.dll
+E:\Bilgisayar Mühendisliği\Projects\Bitirme Projesi\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.deps.json
+E:\Bilgisayar Mühendisliği\Projects\Bitirme Projesi\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.dll
+E:\Bilgisayar Mühendisliği\Projects\Bitirme Projesi\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.pdb
+E:\Bilgisayar Mühendisliği\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.csproj.AssemblyReference.cache
+E:\Bilgisayar Mühendisliği\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bilgisayar Mühendisliği\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.AssemblyInfoInputs.cache
+E:\Bilgisayar Mühendisliği\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.AssemblyInfo.cs
+E:\Bilgisayar Mühendisliği\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.csproj.CoreCompileInputs.cache
+E:\Bilgisayar Mühendisliği\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.dll
+E:\Bilgisayar Mühendisliği\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\refint\RealEstate.Core.dll
+E:\Bilgisayar Mühendisliği\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.pdb
+E:\Bilgisayar Mühendisliği\Projects\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\ref\RealEstate.Core.dll
+C:\Users\anasa\Downloads\Test\Bitirme Projesi\Bitirme Projesi\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.deps.json
+C:\Users\anasa\Downloads\Test\Bitirme Projesi\Bitirme Projesi\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.dll
+C:\Users\anasa\Downloads\Test\Bitirme Projesi\Bitirme Projesi\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.pdb
+C:\Users\anasa\Downloads\Test\Bitirme Projesi\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.csproj.AssemblyReference.cache
+C:\Users\anasa\Downloads\Test\Bitirme Projesi\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anasa\Downloads\Test\Bitirme Projesi\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.AssemblyInfoInputs.cache
+C:\Users\anasa\Downloads\Test\Bitirme Projesi\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.AssemblyInfo.cs
+C:\Users\anasa\Downloads\Test\Bitirme Projesi\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.csproj.CoreCompileInputs.cache
+C:\Users\anasa\Downloads\Test\Bitirme Projesi\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.dll
+C:\Users\anasa\Downloads\Test\Bitirme Projesi\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\refint\RealEstate.Core.dll
+C:\Users\anasa\Downloads\Test\Bitirme Projesi\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.pdb
+C:\Users\anasa\Downloads\Test\Bitirme Projesi\Bitirme Projesi\Test_T\RealEstate.Core\obj\Debug\net6.0\ref\RealEstate.Core.dll
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.deps.json
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.dll
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\bin\Debug\net6.0\RealEstate.Core.pdb
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.csproj.AssemblyReference.cache
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.AssemblyInfoInputs.cache
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.AssemblyInfo.cs
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.csproj.CoreCompileInputs.cache
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.dll
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Debug\net6.0\refint\RealEstate.Core.dll
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.pdb
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Debug\net6.0\ref\RealEstate.Core.dll
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Debug\net6.0\RealEstate.Core.sourcelink.json

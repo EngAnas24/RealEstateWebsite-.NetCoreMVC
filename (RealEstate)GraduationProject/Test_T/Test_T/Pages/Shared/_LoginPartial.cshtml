@@ -1,0 +1,23 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="g-btn">
+        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+            <button class="gbtnsignin-popup">Sign out</button>
+        </form>
+    </div>
+}
+else
+{
+    <div class="g-btn">
+        <a href="/Identity/Account/Login">
+            <button class="gbtnsignin-popup">Sign in</button>
+        </a>
+        <a href="/Identity/Account/Register">
+            <button class="gbtnsignin-popup">Sign up</button>
+        </a>
+    </div>
+}

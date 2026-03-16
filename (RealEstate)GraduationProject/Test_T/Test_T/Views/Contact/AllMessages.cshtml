@@ -1,0 +1,23 @@
+﻿@using RealEstate.Core.Entities.ContactEntity
+@model IEnumerable<Contact>
+<style>
+
+</style>
+<section class="requests">
+    <h1 class="heading">All Messages</h1>
+    <div class="box-container">
+        
+                        @foreach (var contact in Model)
+                        {
+                           
+                                <div class="box">
+                                    <p>Name : <span>@contact.Name</span></p>
+                                    <p>Number : <a href="tel:@contact.Number">@contact.Number</a></p>
+                                    <p>Email : <a href="mailto:@contact.Email">@contact.Email</a></p>
+                                    <p class="p">@contact.Message</p>
+                                </div>
+                            
+                        }
+                    
+    </div>
+</section>

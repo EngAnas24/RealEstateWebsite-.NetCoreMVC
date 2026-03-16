@@ -1,0 +1,32 @@
+{
+  "profiles": {
+    "Test_T": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7217",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sqlDebugging": false
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "workingDirectory": "C:\\Users\\anasa\\Downloads",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "nativeDebugging": true,
+      "sqlDebugging": false
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": true,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:5430",
+      "sslPort": 44384
+    }
+  }
+}

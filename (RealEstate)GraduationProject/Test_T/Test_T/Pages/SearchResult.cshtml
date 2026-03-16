@@ -1,0 +1,93 @@
+﻿@page
+@using Microsoft.AspNetCore.Authorization
+@model Test_T.Pages.SearchResultModel
+@inject IAuthorizationService AuthorizationService
+@{
+    var authorizationResult = await AuthorizationService.AuthorizeAsync(User, "Admin");
+}
+@if (Model.SearchResults != null && Model.SearchResults.Any())
+{
+
+    <section class="my-listings">
+        <div class="box-container">
+            @foreach (var property in Model.SearchResults.OrderByDescending(x => x.Id))
+            {
+                <form asp-action="Update" method="post" class="box">
+                    <input type="hidden" name="property_id" value="@property.Id" />
+                    <div class="thumb">
+                        <p>
+                            <i class="far fa-image"></i> <span>@property.ImagesCounts</span>
+                        </p>
+                        <img src="~/uploads/@property.ImageUrl1" alt="" />
+                    </div>
+                    <div class="price">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <span>@property.propertyprice</span>
+                    </div>
+                    <h3 class="name">@property.propertyname</h3>
+                    <p class="address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>@property.propertyaddress</span>
+                    </p>
+                    <p class="address"><i class="fas fa-calendar"></i><span>@property.AddedDate</span></p>
+
+                    <div class="flex-btn">
+                        @if (authorizationResult.Succeeded)
+                        {
+                            <a asp-action="Edit" asp-controller="RealEstateProperty" asp-route-id="@property.Id" class="btn">Update</a>
+                            <a  asp-controller="RealEstateProperty" class="btn delete-button" data-id="@property.Id" >Delete</a>
+                        }
+                    </div>
+                    <a asp-action="Details"  asp-controller="RealEstateProperty" asp-route-id="@property.Id" class="btn">View Property</a>
+                </form>
+            }
+        </div>
+    </section>
+}
+<br/>
+else 
+{
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <h1><center style="color: whitesmoke">@Model.Message</center></h1>
+}
+
+
+@* Include jQuery library if not already included *@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".delete-button").click(function (e) {
+            e.preventDefault(); // Prevent default behavior of the anchor tag
+
+            if (confirm("Are you sure you want to delete this item?")) {
+                var button = $(this);
+                var id = button.data("id");
+
+                $.ajax({
+                    url: '@Url.Action("DeleteAjax", "RealEstateProperty")',
+                    type: 'POST',
+                    data: {
+                        id: id,
+                        __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val()
+                    },
+                    success: function (result) {
+                        if (result.success) {
+                            // Handle success: reload the page
+                            location.reload();
+                        } else {
+                            alert(result.message);
+                        }
+                    },
+                    error: function () {
+                        alert("An error occurred while trying to delete the item.");
+                    }
+                });
+            }
+        });
+    });
+</script>

@@ -1,0 +1,77 @@
+﻿@page
+@model RegisterModel
+
+
+<div class="wrapper">
+    <div class="form-box signup">
+        <h2>Sign up</h2>
+        @try
+        {
+            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="input-box">
+                    <input asp-for="Input.UserName"   aria-required="true" />
+                    <label asp-for="Input.UserName"></label>
+                    <span class="ico"> <i class="fa-solid fa-user"></i></span>
+                </div>
+                <div class="input-box">
+                    <input asp-for="Input.Email"  aria-required="true" />
+                    <label asp-for="Input.Email"></label>
+                    <span class="ico"><i class="fa-solid fa-envelope"></i></span>
+                </div>
+                <div class="input-box">
+                    <span class="ico"><i class="fa-solid fa-lock"></i></span>
+                    <input asp-for="Input.Password" aria-required="true" id="password" />
+                    <img src="~/images/pass-hide.png" onclick="pass()" class="passicon" id="passicon">
+                    <label asp-for="Input.Password"></label>
+
+                </div>
+
+                <button id="registerSubmit" type="submit" class="btnn">Sign up</button>
+            </form>
+        }
+        catch (Exception e)
+        {
+           
+        }
+        <div class="signin-signup">
+            <p>
+                Already have an account? <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">
+
+                    Sign in
+                </a>
+            </p>
+        </div>
+        <div class="media-options">
+            <a asp-action="Login" asp-controller="Login">
+                <i class="fa-brands fa-google"></i>
+                <span>Sign ip with Google</span>
+            </a>
+            <a asp-action="FacebookLogin" asp-controller="Login">
+                <i class="fa-brands fa-facebook"></i>
+                <span>Sign in with Facebook</span>
+            </a>
+        </div>
+    </div>
+  
+    </div>
+<script>
+    var a;
+    function pass() {
+        if (a == 1) {
+            document.getElementById("password").type = "password";
+            document.getElementById("passicon").src = "/images/pass-hide.png";
+            a = 0;
+        }
+        else {
+            document.getElementById("password").type = "text";
+            document.getElementById("passicon").src = "/images/pass-show.png";
+            a = 1;
+        }
+    }
+</script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

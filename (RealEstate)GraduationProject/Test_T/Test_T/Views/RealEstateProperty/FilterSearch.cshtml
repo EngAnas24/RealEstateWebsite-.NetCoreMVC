@@ -1,0 +1,56 @@
+﻿@using Microsoft.AspNetCore.Authorization
+@using RealEstate.Core.Entities.RealEstateEntities
+@inject IAuthorizationService authoriz
+@model IEnumerable<RealEstateProperty>
+
+<!-- search filter section starts  -->
+
+<section class="filters" style="padding-bottom: 0;">
+
+    <form asp-action="FilterSearch" method="post">
+        <div id="close-filter"><i class="fas fa-times"></i></div>
+        <h3>filter your search</h3>
+
+        <div class="flex">
+            <div class="box">
+                <p>enter location</p>
+                <input type="text" name="real.propertyaddress" required maxlength="50" placeholder="enter city name" class="input">
+            </div>
+            <div class="box">
+                <p>offer type</p>
+                <select name="real.OffertypeLiist" class="input" required>
+                    <option value="sale">sale</option>
+                    <option value="rent">rent</option>
+                </select>
+            </div>
+            <div class="box">
+                <p>property type</p>
+                <select name="real.PropertytypeList" class="input" required>
+                    <option value="houses">houses</option>
+                    <option value="apartments">apartments</option>
+                    <option value="villa">Villa</option>
+                </select>
+            </div>
+            <div class="box">
+                <p>status</p>
+                <select name="real.PropertystatusList" class="input" required>
+                    <option value="ready to move">ready to move</option>
+                    <option value="under construction">under construction</option>
+                </select>
+            </div>
+            <div class="box">
+                <p>furnished</p>
+                <select name="real.FurnishedstatusList" class="input" required>
+                    <option value="unfurnished">unfurnished</option>
+                    <option value="furnished">furnished</option>
+                    <option value="semi-furnished">semi-furnished</option>
+                </select>
+            </div>
+        </div>
+        <input type="submit" value="search property" name="filter_search" class="btn">
+    </form>
+
+</section>
+
+<!-- search filter section ends -->
+<div id="filter-btn" class="fas fa-filter"></div>

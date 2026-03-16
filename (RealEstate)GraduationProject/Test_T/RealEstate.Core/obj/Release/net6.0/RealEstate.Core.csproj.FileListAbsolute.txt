@@ -1,0 +1,13 @@
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\bin\Release\net6.0\RealEstate.Core.deps.json
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\bin\Release\net6.0\RealEstate.Core.dll
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\bin\Release\net6.0\RealEstate.Core.pdb
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Release\net6.0\RealEstate.Core.csproj.AssemblyReference.cache
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Release\net6.0\RealEstate.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Release\net6.0\RealEstate.Core.AssemblyInfoInputs.cache
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Release\net6.0\RealEstate.Core.AssemblyInfo.cs
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Release\net6.0\RealEstate.Core.csproj.CoreCompileInputs.cache
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Release\net6.0\RealEstate.Core.sourcelink.json
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Release\net6.0\RealEstate.Core.dll
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Release\net6.0\refint\RealEstate.Core.dll
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Release\net6.0\RealEstate.Core.pdb
+D:\c#\GraduationProject\(RealEstate)GraduationProject\Test_T\RealEstate.Core\obj\Release\net6.0\ref\RealEstate.Core.dll

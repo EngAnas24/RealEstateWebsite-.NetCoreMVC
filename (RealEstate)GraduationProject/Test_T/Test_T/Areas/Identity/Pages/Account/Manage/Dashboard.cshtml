@@ -1,0 +1,59 @@
+﻿@page
+@model  DashboardModel
+@inject RealEstate.Data.IRepos.IRealEstateRepo<RealEstate.Core.Entities.RealEstateEntities.RealEstateProperty> real
+@inject RealEstate.Core.Entities.RealEstateEntities.RealEstateProperty realprop
+@inject IEnumerable<RealEstate.Core.Entities.SavedPropEntity.SavedProp> savedprop
+@inject RealEstate.Data.Services.SavedPropService test
+@inject RealEstate.Core.Entities.RequestsEntites.Requests request
+@inject RealEstate.Data.IRepos.IRequestMethods<RealEstate.Core.Entities.RequestsEntites.Requests> req
+@using  Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    var getuserid = UserManager.GetUserId(User);
+}
+<!-- dashboard section start -->
+<section class="dashboard">
+    <h1 class="heading">dashboard</h1>
+    <div class="box-container">
+        <div class="box">
+            <h3>welcome!</h3>
+            <p><!--user a-->@Model.User.UserName</p>
+            <a href="/Identity/Account/Manage/UpdateAccount" class="btn">update profile</a>
+        </div>
+
+        <div class="box">
+            <h3>filter search</h3>
+            <p>search your dream property</p>
+            <a href="/RealEstateProperty/FilterSearch" class="btn">search now</a>
+        </div>
+
+        <div class="box">
+            <h3><!--total prperties-->@real.PostsCounts(Model.User.Id)</h3>
+            <p>properties listed</p>
+            <a href="/RealEstateProperty/MyPosts" class="btn">My Posts</a>
+        </div>
+
+        <div class="box">
+            <h3><!--total requests received-->@req.ReceivedPostsCounts(getuserid)</h3>
+            <p>requests received</p>
+            <a href="" class="btn">view requestsReceived prperties</a>
+        </div>
+
+        <div class="box">
+            <h3><!--total requests sent-->@req.PostsCounts(getuserid)</h3>
+            <p>requests sent</p>
+            <a href="" class="btn">view requestsSent prperties</a>
+        </div>
+
+
+
+        <div class="box">
+            <h3><!--total saved properties-->@test.SavedCount(getuserid)</h3>
+            <p>properties saved</p>
+            <a href="/RealEstateProperty/SavedProperty" class="btn">view saved properties</a>
+        </div>
+
+    </div>
+</section>
+<!-- dashboard section ends -->
